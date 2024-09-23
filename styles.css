@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: url(https://th.bing.com/th/id/R.d79ea51d7ef93a3ac7e1afdefb36ca22?rik=5Nw1ZV4fLAd4NQ&riu=http%3a%2f%2fwww.meupositivo.com.br%2fdoseujeito%2fwp-content%2fuploads%2f2022%2f12%2fComo-criar-imagens-com-inteligencia-artificial.jpg&ehk=e2SsrMm%2b1YGeBWhXKHYu1ufGQqK1RA40EEj2oLuIVag%3d&risl=&pid=ImgRaw&r=0)
+
+
+    
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
